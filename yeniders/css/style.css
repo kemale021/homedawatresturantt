@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+   
+}
+header ul{
+    list-style: none;
+}
+header ul li{
+    padding: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    background-image: url(../img/slide_1.jpg);
+     background-position: center; 
+     background-size: cover;
+    height: 500px;
+    position: relative;
+    top: 0;
+}
+.bg-color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    
+
+}
+.bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.387);
+}
+.ucbucag{
+    background-image: url(../img/tri-promo-bottom-white.png);
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    background-repeat-x:repeat;
+    background-repeat-y: no-repeat;
+    transform: rotate(180deg);
+    bottom: 0%;
+
+}
+.Soz{
+
+    color: #ca3d26;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 2px;
+    text-align: center;
+   
+   
+    
+}
+h6{
+    font-weight: 700;
+    font-size: 80px;
+    
+}
+.story-all{
+    color: grey;
+    float: left;
+    line-height: 47px;
+    
+    
+}
+.story-m{
+    font-size: 122px;
+    font-weight: 600;
+    float: left;
+    line-height: 130px;
+}
+.sekil{
+   
+    width: 100px;
+}
+.ourStory{
+    background-image: url(../img/home_three_about_bg.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
